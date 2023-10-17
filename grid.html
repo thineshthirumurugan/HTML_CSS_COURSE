@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid demo</title>
+    </head>
+    <body>
+          <div style="
+             display: grid;
+             grid-template-columns: 100px 100px 100px;
+          ">
+                <div style="background-color: pink;">Div 1</div>
+                <div style="background-color: lightblue;">Div 2 <p>The paragraph</p></div>
+                <div style="background-color: lightgreen;">Div 3</div>
+          </div>  
+
+          <div style="
+             margin-top: 20px;
+             display: grid;
+             grid-template-columns: 100px 2fr 1fr ;
+          ">
+                <div style="background-color: pink;">Div 1</div>
+                <div style="background-color: lightblue;">Div 2</div>
+                <div style="background-color: lightgreen;">Div 3</div>
+          </div>  
+
+
+    
+          <div style="
+          height: 300px;
+          margin-top: 20px;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr ;
+         column-gap: 20px;
+         row-gap: 20px;
+      ">
+           <div style="background-color: pink;">Div 1</div>
+           <div style="background-color: lightblue;">Div 2</div>
+          <div style="background-color: lightgreen;">Div 3</div>
+          <div style="background-color: lightblue;">Div 2</div>
+          <div style="background-color: lightgreen;">Div 3</div>
+          <div style="background-color: pink;">Div 1</div>
+      </div>  
+
+    </body>
+</html>
